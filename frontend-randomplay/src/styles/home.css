@@ -1,0 +1,35 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+}
+
+.home_img {
+    background-image: url("../assets/images/home.svg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.home_content {
+    width: 50%;
+    top: 50%;
+    left: 10%;
+    position: absolute;
+    transform: translate(0, -50%);
+}
+
+.home-button {
+    background: url("../assets/images/homebutton.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: min(220px,80%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
